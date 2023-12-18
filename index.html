@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- 
+  Buatan saha cik? Toby sih
+  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+  <body style="text-align: center">
+    <h1>Hellow</h1>
+    <h2>Mau Jadi Pacar Aku ga?</h2>
+    <div>
+      <button onclick="mau()">MAU</button>
+      <button onmouseover="gak(this)">GAK</button>
+    </div>
+    <script>
+      function mau() {
+        alert("Tapi Akunya Yang Gmau:)");
+        alert("Hehe:)");
+      }
+      function gak(ini) {
+        ini.style.position = "absolute";
+        ini.style.left = `${Math.floor(Math.random() * 90)}%`;
+        ini.style.top = `${Math.floor(Math.random() * 90)}%`;
+      }
+    </script>
+  </body>
+</html>
